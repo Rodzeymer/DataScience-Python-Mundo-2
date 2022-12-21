@@ -8,7 +8,7 @@ menores = []
 for contador in range(1,8):
     anoNascimento = int(input('Digite o ano de nascimento da pessoa {}'.format(contador)))
     idade = anoAtual-anoNascimento
-    if idade >=18:
+    if idade >=21:
         maiorIdade = maiorIdade +1
         maiores.append(idade)
     else:
