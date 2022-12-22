@@ -5,4 +5,4 @@ for c in range (0, 500):
             print('Número {} é ímpar e múltiplo de 3'.format(c))
             soma = soma+c
             
-print(soma)
+print('A soma de todos os números ímpares e múltiplos de 3 entre 1 e 500 é: {}'.format(soma))
