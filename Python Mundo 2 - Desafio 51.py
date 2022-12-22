@@ -1,6 +1,10 @@
-primeiroTermo = float(input('Digite o primeiro termo da progressão'))
-razao = float(input('Agora digite o valor da razão'))
+primeiroTermo = int(input('Digite o primeiro termo da progressão'))
+razao = int(input('Agora digite o valor da razão'))
 termo = 10
-for c in range(1, 11):
-    progrssao = primeiroTermo*(c*razao)
-    print('Na progressão, o termo {}, com razão {} é igual à {}'.format(c, razao, progrssao))
+decimoTermo = primeiroTermo + (10-1)* razao
+print('''Progressão aritmética
+    Primeiro termo {}
+    Razão {}'''.format(primeiroTermo, razao))
+for c in range(primeiroTermo, decimoTermo + razao, razao):
+    print('{} '.format(c), end='-> ')
+print('FIM')
