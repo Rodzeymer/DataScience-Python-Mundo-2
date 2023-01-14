@@ -1,19 +1,30 @@
-from datetime import date
+# Agora o programa irá pegar o ano de nascimento que o usuário informar e comparar com o ano
+# atual do sistema, recuperado pelo próprio sistema através do módulo datetime, com base então na
+# idade calculada o sistema irá apresentar ao usuário uma categoria etária
 
+print('*' *30)
+print("{'Python Mundo 2 - Desafio 41':^30}")
+print('*' *30) 
+
+from datetime import date
 anoAtual = int(date.today().year)
 
 anoNascimento = int(input('Digite o ano do seu nascimento'))
 idade  = anoAtual  - anoNascimento
 
 if idade <=9:
-    print('Seja muito bem vindo, com a sua idade {} a sua categoria é Mirim'.format(idade))
+    print(f'Seja muito bem vindo, com a sua idade {idade} a sua categoria é Mirim')
 elif idade>9 and idade <=14:
-    print('Olá, por conta da sua idade ser {}, sua categoria é a Infantil'.format(idade))
+    print(f'Olá, por conta da sua idade ser {idade}, sua categoria é a Infantil')
 elif idade>14 and idade <=19:
-    print('Parabéns, com {} anos, sua categoria é Junior'.format(idade))
+    print(f'Parabéns, com {idade} anos, sua categoria é Junior')
 elif idade >19 and idade <=20:
-    print('Com {} anos sua categoria é Sênior'.format(idade))
+    print(f'Com {idade} anos sua categoria é Sênior')
 elif idade > 20 and idade <=80:
-    print('Maravilha, com a idade de {} sua categoria é a mais alta, a categoria Master'.format(idade))
+    print(f'Maravilha, com a idade de {idade} sua categoria é a mais alta, a categoria Master')
 else:
-    print('Nossos agradecimentos, com a idade de {} anos é um prazer ainda tê-lo conosco, na categora Master!'.format(idade))
+    print(f'Nossos agradecimentos, com a idade de {idade} anos é um prazer ainda tê-lo conosco, na categora Master!')
+
+print('*' *30)
+print(f"{'FIM':^30}")
+print('*' *30)

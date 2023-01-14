@@ -5,8 +5,8 @@ print('*' *30)
 print("{'Python Mundo 2 - Desafio 40':^30}")
 print('*' *30)
 nome = input('Digite o nome do aluno')
-nota1 = float(input(f'Digite a primeira nota de {nome}')
-nota2 = float(input(f'Digite agora a segunda nota de {nome}')
+nota1 = float(input(f'Digite a primeira nota de {nome}'))
+nota2 = float(input(f'Digite agora a segunda nota de {nome}'))
 
 media = (nota1+nota2)/2
 
