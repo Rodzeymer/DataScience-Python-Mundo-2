@@ -1,4 +1,4 @@
-# Agora inicamos o estudo de vetores para depois irmos para arrays, aqui o algoritmo pega os números pares
+# Agora iniciamos o estudo de vetores para depois irmos para arrays, aqui o algoritmo pega os números pares
 # entre 1 e 50, exibe na tela uma mensagem dizendo se o número é par e o acrescenta no vetor, exibindo o 
 # o vetor completo ao final da execução
 
