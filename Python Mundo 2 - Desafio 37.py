@@ -3,7 +3,7 @@
 # pra qual base binária converter, podendo ser binário, octal ou hexadecimal
 
 print('*' *30)
-print("{'Python Mundo 2 - Desafio 37':^30}")
+print(f"{'Python Mundo 2 - Desafio 37':^30}")
 print('*' *30)
 
 decimal = int(input('Digite um numero decimal inteiro'))

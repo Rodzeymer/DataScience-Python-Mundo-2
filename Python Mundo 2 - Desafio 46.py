@@ -4,7 +4,7 @@
 # de um final de ano
 
 print('*' *30)
-print("{'Python Mundo 2 - Desafio 46':^30}")
+print(f"{'Python Mundo 2 - Desafio 46':^30}")
 print('*' *30)
 
 from time import sleep

@@ -5,7 +5,7 @@
 # parcelas e seus valores.
 
 print('*' *30)
-print("{'Python Mundo 2 - Desafio 44':^30}")
+print(f"{'Python Mundo 2 - Desafio 44':^30}")
 print('*' *30)
 
 preco = float(input('Digite o valor do produto'))

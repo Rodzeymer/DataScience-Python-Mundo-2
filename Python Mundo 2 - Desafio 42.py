@@ -3,7 +3,7 @@
 # triângulo ele é: isóceles, equilátero, ou escaleno.
 
 print('*' *30)
-print("{'Python Mundo 2 - Desafio 42':^30}")
+print(f"{'Python Mundo 2 - Desafio 42':^30}")
 print('*' *30) 
 
 ladoA = int(input('Digite o tamanho do lado A'))

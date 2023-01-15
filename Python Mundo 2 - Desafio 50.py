@@ -3,7 +3,7 @@
 # ágil
 
 print('*' *30)
-print("{'Python Mundo 2 - Desafio 50':^30}")
+print(f"{'Python Mundo 2 - Desafio 50':^30}")
 print('*' *30)
 
 soma=0

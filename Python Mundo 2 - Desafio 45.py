@@ -4,7 +4,7 @@
 # entre vitória do jogador, vitória do PC ou empate.
 
 print('*' *30)
-print("{'Python Mundo 2 - Desafio 45':^30}")
+print(f"{'Python Mundo 2 - Desafio 45':^30}")
 print('*' *30)
 
 from random import choice

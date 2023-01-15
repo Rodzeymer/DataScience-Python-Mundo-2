@@ -2,7 +2,7 @@
 # legível e menor
 
 print('*' *30)
-print("{'Python Mundo 2 - Desafio 40':^30}")
+print(f"{'Python Mundo 2 - Desafio 40':^30}")
 print('*' *30)
 nome = input('Digite o nome do aluno')
 nota1 = float(input(f'Digite a primeira nota de {nome}'))

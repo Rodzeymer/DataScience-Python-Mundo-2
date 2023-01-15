@@ -3,7 +3,7 @@
 # o vetor completo ao final da execução
 
 print('*' *30)
-print("{'Python Mundo 2 - Desafio 47':^30}")
+print(f"{'Python Mundo 2 - Desafio 47':^30}")
 print('*' *30)
 
 pares = []

@@ -3,7 +3,7 @@
 # categoria, entre abaixo do peso, ideal, sobrepeso e obeso.
 
 print('*' *30)
-print("{'Python Mundo 2 - Desafio 43':^30}")
+print(f"{'Python Mundo 2 - Desafio 43':^30}")
 print('*' *30) 
 
 altura = float(input('Digite a sua altura, em centimetros'))

@@ -4,7 +4,7 @@
 # de retorno.
 
 print('*' *30)
-print("{'Python Mundo 2 - Desafio 39':^30}")
+print(f"{'Python Mundo 2 - Desafio 39':^30}")
 print('*' *30)
 genero = input('Digite o seu genero, M para Masculino, F para feminino').lower()
 idade = int(input('Digite a sua idade'))

@@ -4,7 +4,7 @@
 # deverá ser de 20667
 
 print('*' *30)
-print("{'Python Mundo 2 - Desafio 48':^30}")
+print(f"{'Python Mundo 2 - Desafio 48':^30}")
 print('*' *30)
 
 soma = int(0)

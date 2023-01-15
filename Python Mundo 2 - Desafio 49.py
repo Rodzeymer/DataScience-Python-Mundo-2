@@ -2,7 +2,7 @@
 # números decimais também
 
 print('*' *30)
-print("{'Python Mundo 2 - Desafio 49':^30}")
+print(f"{'Python Mundo 2 - Desafio 49':^30}")
 print('*' *30)
 
 tabuada = float(input('Digite um número para a tabuada'))

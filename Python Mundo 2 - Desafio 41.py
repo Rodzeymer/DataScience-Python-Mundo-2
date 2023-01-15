@@ -3,7 +3,7 @@
 # idade calculada o sistema irá apresentar ao usuário uma categoria etária
 
 print('*' *30)
-print("{'Python Mundo 2 - Desafio 41':^30}")
+print(f"{'Python Mundo 2 - Desafio 41':^30}")
 print('*' *30) 
 
 from datetime import date
