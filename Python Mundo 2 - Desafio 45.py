@@ -1,7 +1,7 @@
 # Neste desafio foi construido um algoritmo em que o usuário joga jokenpo, ou pedra, papel ou tesoura, 
 # contra o computador. O usuário faz sua escolha, 1-Pedra, 2-Papel ou 3-Tesoura, o sistema escolhe usando
 # o a função choice do módulo random de um array com as mesmas opções, o programa compara e exibe o resultado
-#Q entre vitória do jogador, vitória do PC ou empate.
+# entre vitória do jogador, vitória do PC ou empate.
 
 print('*' *30)
 print("{'Python Mundo 2 - Desafio 45':^30}")
