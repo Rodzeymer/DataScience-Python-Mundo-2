@@ -1,3 +1,12 @@
+# Para encerrar esse Mundo 2 o boss se apresenta na forma de um algoritmo que simula
+# um caixa eletrônico
+
+# <><><><><><>< TERMINAR DE COMENTAR O QUANTO ANTES <><><><><><><
+
+print('*' *30)
+print(f"{'Python Mundo 2 - Desafio 71' :^30}")
+print('*' *30)
+
 saldoInicial = int(input('Quanto deseja sacar?'))
 saldo = saldoInicial
 
@@ -17,3 +26,6 @@ if saque10>0:
 saque1 = saldo
 if saque1>0:
     print(f'Notas de R$1: {saque1}')
+print('*' *30)
+print(f"{'FIM':^30}")
+print('*' *30)
