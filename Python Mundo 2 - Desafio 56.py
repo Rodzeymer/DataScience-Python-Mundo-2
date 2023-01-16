@@ -7,7 +7,7 @@
 # ao final realizar a média de todas as idades informadas
 
 print('*' *30)
-print(f"{'Python Mundo 2 - Desafio 55':^30}")
+print(f"{'Python Mundo 2 - Desafio 56':^30}")
 print('*' *30)
 
 nomes = []
